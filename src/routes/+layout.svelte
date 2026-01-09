@@ -16,7 +16,8 @@
 			<a href="https://store.steampowered.com/app/400/">Get Portal</a>
 		</div>
 
-		<div class="basis-2/6 text-center text-2xl font-bold uppercase">
+		<div class="flex basis-2/6 items-center justify-center gap-2 text-2xl font-bold uppercase">
+			<img src="/aperture.svg" alt="" class="h-6" />
 			<a href="/">Aperture Science</a>
 		</div>
 
