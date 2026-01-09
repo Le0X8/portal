@@ -172,4 +172,4 @@
 
 <h2>Portal 2</h2>
 
-Work in progess.
+<p>Work in progess.</p>
