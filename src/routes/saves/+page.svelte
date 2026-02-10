@@ -33,10 +33,10 @@
 	</li>
 </ul>
 
-<h2>Portal</h2>
+<h2 id="portal">Portal</h2>
 
 <ul>
-	<li>
+	<li id="portal-tests">
 		<b>Chamber 0</b> (Introduction)
 		<ul>
 			<li><a href={saveUrl('portal/c0')}>Skip introduction cutscene</a></li>
@@ -112,7 +112,7 @@
 			<li><a href={saveUrl('portal/c19-oven')}>Oven</a></li>
 		</ul>
 	</li>
-	<li>
+	<li id="portal-escape">
 		<b>Escape</b>
 		<ul>
 			<li>
@@ -152,7 +152,7 @@
 			</li>
 		</ul>
 	</li>
-	<li>
+	<li id="portal-boss">
 		<b>GLaDOS Fight</b>
 		<ul>
 			<li><a href={saveUrl('portal/boss')}>Arrival</a></li>
@@ -170,10 +170,10 @@
 	</li>
 </ul>
 
-<h2>Portal 2</h2>
+<h2 id="portal2">Portal 2</h2>
 
 <ul>
-	<li>
+	<li id="portal2-chapter1">
 		<b>Chapter 1:</b>
 		The Courtesy Call
 		<ul>
@@ -218,7 +218,7 @@
 			<li><a href={saveUrl('p2/c1-c19')}>Chamber 19</a> (Incinerator)</li>
 		</ul>
 	</li>
-	<li>
+	<li id="portal2-chapter2">
 		<b>Chapter 2:</b>
 		The Cold Boot
 		<ul>
@@ -232,7 +232,7 @@
 			<li><a href={saveUrl('p2/c2-c8')}>Chamber 8</a> (Fizzler Intro)</li>
 		</ul>
 	</li>
-	<li>
+	<li id="portal2-chapter3">
 		<b>Chapter 3:</b>
 		The Return
 		<ul>
@@ -247,7 +247,7 @@
 			<li><a href={saveUrl('p2/c3-c17')}>Chamber 17</a> (Pull the Rug)</li>
 		</ul>
 	</li>
-	<li>
+	<li id="portal2-chapter4">
 		<b>Chapter 4:</b>
 		The Surprise
 		<ul>
@@ -259,7 +259,7 @@
 			<li><a href={saveUrl('p2/c4-e2')}>Escape Part 2</a></li>
 		</ul>
 	</li>
-	<li>
+	<li id="portal2-chapter5">
 		<b>Chapter 5:</b>
 		The Escape
 		<ul>
@@ -292,6 +292,168 @@
 			</li>
 		</ul>
 	</li>
+	<li id="portal2-chapter6">
+		<b>Chapter 6:</b>
+		The Fall
+		<ul>
+			<li><a href={saveUrl('p2/c6-fall')}>Long Fall</a></li>
+			<li>
+				The Pit
+				<i>(Underground)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c6-bottom')}>Bottom of the facility</a></li>
+					<li><a href={saveUrl('p2/c6-bottom-keepout')}>"Keep out" signs</a></li>
+					<li><a href={saveUrl('p2/c6-bottom-seal')}>Enrichment Shaft 09 Seal</a></li>
+				</ul>
+			</li>
+			<li>
+				Beyond the Seal
+				<i>(Cave Johnson)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c6-cavejohnson')}>Enrichment Shaft 09 Seal</a></li>
+					<li><a href={saveUrl('p2/c6-cavejohnson-wait')}>Waiting room</a></li>
+					<li><a href={saveUrl('p2/c6-cavejohnson-pumpalpha')}>Pump Station Alpha</a></li>
+				</ul>
+			</li>
+			<li>
+				Enrichment Sphere 1
+				<i>(Repulsion Intro)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c6-sph1')}>Chamber 1</a></li>
+					<li><a href={saveUrl('p2/c6-sph1-c2')}>Chamber 2</a></li>
+				</ul>
+			</li>
+			<li><a href={saveUrl('p2/c6-sph2')}>Enrichment Sphere 2</a> (Bomb Flings)</li>
+			<li>
+				Enrichment Sphere 3
+				<i>(Crazy Box)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c6-sph3')}>Chamber 1</a></li>
+					<li><a href={saveUrl('p2/c6-sph3-cat')}>Catwalk</a></li>
+					<li><a href={saveUrl('p2/c6-sph3-c2')}>Chamber 2</a></li>
+				</ul>
+			</li>
+			<li>
+				Reconciliation
+				<i>(PotatOS)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c6-end')}>Lobby</a></li>
+					<li><a href={saveUrl('p2/c6-end-pumpbeta')}>Pump Station Beta</a></li>
+					<li><a href={saveUrl('p2/c6-end-70s')}>70's Aperture</a></li>
+					<li><a href={saveUrl('p2/c6-end-control')}>Control Room</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li id="portal2-chapter7">
+		<b>Chapter 7:</b>
+		The Reunion
+		<ul>
+			<li>
+				Enrichment Sphere 4
+				<i>(Propulsion Intro)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c7-sph4')}>Chamber 1</a></li>
+					<li><a href={saveUrl('p2/c7-sph4-cat')}>Catwalk</a></li>
+					<li><a href={saveUrl('p2/c7-sph4-c2')}>Chamber 2</a></li>
+				</ul>
+			</li>
+			<li><a href={saveUrl('p2/c7-sph5')}>Enrichment Sphere 5</a> (Propulsion Flings)</li>
+			<li>
+				Pump Station Gamma & Enrichment Sphere 6
+				<i>(Conversion Intro)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c7-end')}>Lobby</a></li>
+					<li><a href={saveUrl('p2/c7-end-pumpgamma')}>Pump Station Gamma</a></li>
+					<li><a href={saveUrl('p2/c7-end-wait')}>Waiting room</a></li>
+					<li><a href={saveUrl('p2/c7-end-sph6')}>Enrichment Sphere 6</a></li>
+					<li><a href={saveUrl('p2/c7-end-end')}>Other Lobby</a></li>
+					<li><a href={saveUrl('p2/c7-end-elevator')}>Elevator Shaft</a></li>
+				</ul>
+			</li>
+			<li>
+				Ascension
+				<i>(Three Gels)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c7-vertical')}>Elevator Shaft Exit</a></li>
+					<li><a href={saveUrl('p2/c7-vertical-room')}>Test Chamber</a></li>
+					<li><a href={saveUrl('p2/c7-vertical-seal')}>Upper Enrichment Shaft 09 Seal</a></li>
+					<li><a href={saveUrl('p2/c7-vertical-transition')}>Transition into new Aperture</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li id="portal2-chapter8">
+		<b>Chapter 8:</b>
+		The Itch
+		<ul>
+			<li>
+				Frankenturrets
+				<i>(Test)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c8-wheatley')}>Start</a></li>
+					<li><a href={saveUrl('p2/c8-wheatley-c0')}>Chamber 0</a></li>
+					<li><a href={saveUrl('p2/c8-wheatley-c1')}>Chamber 1</a></li>
+					<li><a href={saveUrl('p2/c8-wheatley-c1a')}>Chamber 1 (again)</a></li>
+				</ul>
+			</li>
+			<li><a href={saveUrl('p2/c8-c1')}>Chamber 1</a> (Funnel Intro)</li>
+			<li><a href={saveUrl('p2/c8-c2')}>Chamber 2</a> (Ceiling Button)</li>
+			<li><a href={saveUrl('p2/c8-c3')}>Chamber 3</a> (Wall Button)</li>
+			<li><a href={saveUrl('p2/c8-c4')}>Chamber 4</a> (Polarity)</li>
+			<li><a href={saveUrl('p2/c8-c5')}>Chamber 5</a> (Funnel Catch)</li>
+			<li><a href={saveUrl('p2/c8-c6')}>Chamber 6</a> (Stop the Box)</li>
+			<li><a href={saveUrl('p2/c8-c11')}>Chamber 11</a> (Laser Catapult)</li>
+			<li>
+				Chamber 12
+				<i>(Laser Platform)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c8-c12')}>Start</a></li>
+					<li><a href={saveUrl('p2/c8-c12-cat')}>Catwalk</a></li>
+				</ul>
+			</li>
+			<li><a href={saveUrl('p2/c8-c15')}>Chamber 15</a> (Propulsion Catch)</li>
+			<li><a href={saveUrl('p2/c8-c16')}>Chamber 16</a> (Repulsion Polarity)</li>
+			<li><a href={saveUrl('p2/c8-c17')}>Chamber 17</a> (Finale 1)</li>
+		</ul>
+	</li>
+	<li id="portal2-chapter9">
+		<b>Chapter 9:</b>
+		The Part Where...
+		<ul>
+			<li><a href={saveUrl('p2/c9-e1')}>Mash-up</a> (Finale 1)</li>
+			<li>
+				Holmes Vs Moriarty
+				<i>(Finale 2)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c9-e2')}>Escape</a></li>
+					<li><a href={saveUrl('p2/c9-c75')}>Chamber 75</a></li>
+					<li><a href={saveUrl('p2/c9-c77')}>Chamber 77</a></li>
+					<li><a href={saveUrl('p2/c9-e3')}>Escape</a></li>
+				</ul>
+			</li>
+			<li>
+				Morton's Fork
+				<i>(Finale 3)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c9-e4')}>Escape</a></li>
+					<li><a href={saveUrl('p2/c9-e4-production')}>Factory</a></li>
+					<li><a href={saveUrl('p2/c9-e4-view')}>Epic View</a></li>
+					<li><a href={saveUrl('p2/c9-e4-preboss')}>Area below the fight</a></li>
+				</ul>
+			</li>
+			<li>
+				Finale
+				<i>(Finale 4)</i>
+				<ul>
+					<li><a href={saveUrl('p2/c9-boss')}>Map Entrance</a></li>
+					<li><a href={saveUrl('p2/c9-boss-cores')}>Personality Cores</a></li>
+					<li><a href={saveUrl('p2/c9-boss-start')}>Boss Fight Start</a></li>
+					<li><a href={saveUrl('p2/c9-boss-core1')}>Core 1 attached</a></li>
+					<li><a href={saveUrl('p2/c9-boss-core2')}>Core 2 attached</a></li>
+					<li><a href={saveUrl('p2/c9-boss-core3')}>Core 3 attached</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
 </ul>
-
-To be continued... (I still have 62 savegames ready to put them here)

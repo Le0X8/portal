@@ -7,7 +7,7 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<div class="min-h-screen bg-white text-black dark:bg-black dark:text-white">
+<div class="min-h-screen text-black dark:text-white">
 	<nav class="mx-auto flex w-full max-w-240 items-center p-4">
 		<div class="hidden basis-1/6 text-center lg:block">
 			<a href="/">Savegames</a>
